@@ -27,18 +27,18 @@ header nav ul li {
   padding: 10px;
 }
 
-header button {
+header .button {
   background: transparent;
   border: 0;
   cursor: pointer;
   color: white; /*수정*/
 }
 
-header h1 button {
+header h1 .button {
   font-size: 2rem;
   font-weight: bold;
 }
 
-header nav ul li button {
+header nav ul li .button {
   font-size: 1.2rem; /*수정*/
 }
