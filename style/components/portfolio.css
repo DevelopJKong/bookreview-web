@@ -18,14 +18,31 @@ section.portfolio .portfolio-inner:nth-child(3n) {
     margin-right:0;
 }
 
-section.portfolio .portfolio-inner img {
+section.portfolio .portfolio-inner i {
     width:100%;
-    max-height:200px;
-    object-fit: cover;
-    display:block;
-
+    min-width:200px;
+    min-height:200px;
+    max-height:400px;
+    font-size:7rem;
+    text-align: center;
+    margin-top:20%;
+    color:#ff6a6a;
 }
 
+section.portfolio .portfolio-inner i.fa-php{
+    color:#4F5B93;
+}
+
+section.portfolio .portfolio-inner i.fa-wordpress {
+    color:#8892BE;
+}
+
+section.portfolio .portfolio-inner i.fa-node-js {
+    color:#3C873A;
+}
+section.portfolio .portfolio-inner i.fa-react {
+    color:#61DBFB;
+}
 
 
 section.portfolio .portfolio-inner strong {
@@ -35,5 +52,5 @@ section.portfolio .portfolio-inner strong {
 }
 
 section.portfolio .portfolio-inner h3 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }

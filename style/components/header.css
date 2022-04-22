@@ -31,7 +31,7 @@ header .button {
   background: transparent;
   border: 0;
   cursor: pointer;
-  color: white; /*수정*/
+  color: white !important; /*수정*/
 }
 
 header h1 .button {
