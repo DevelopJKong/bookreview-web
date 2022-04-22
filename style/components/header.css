@@ -1,39 +1,44 @@
 header {
-    position:fixed;
-    color:white;
-    top:0;
-    z-index:1;
-    width:100%;
-    padding:1rem;
+  position: fixed;
+  color: white;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 1rem;
+  transition: all .2s linear;
+}
+
+header.on-sroll--background-black {
+    background-color:rgba(0,0,0,0.7);
 }
 
 header .container {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 header nav ul {
-    display:flex;
+  display: flex;
 }
 
 header nav ul li {
-    padding:10px;
+  padding: 10px;
 }
 
 header button {
-    background: transparent;
-    border:0;
-    cursor:pointer;
-    color:white; /*수정*/
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: white; /*수정*/
 }
 
 header h1 button {
-    font-size: 2rem;
-    font-weight:bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 header nav ul li button {
-    font-size: 1.2rem; /*수정*/
+  font-size: 1.2rem; /*수정*/
 }
